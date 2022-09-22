@@ -27,8 +27,6 @@ def logic(DP):
                 DP[row][col] += getMinNum(DP[row-1][0], DP[row-1][2])
             elif(col == 2):
                 DP[row][col] += getMinNum(DP[row-1][0], DP[row-1][1])
-        
-    printLists(DP)
             
     return getAnswer(DP)
 
@@ -48,11 +46,4 @@ def getMinNum(num1, num2):
     
     return num1
 
-
-def printLists(list):
-    for list_element in list:
-        for element in list_element:
-            print(element, ' ', end = '')
-        print()
-        
 main()
