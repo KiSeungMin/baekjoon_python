@@ -4,8 +4,6 @@ def main():
     global AMOUNT, LIMIT, input_lists
     AMOUNT, LIMIT, input_lists = getInput()
     
-    print(input_lists)
-    
     
 def getInput():
     [AMOUNT, LIMIT] = map(int, input().split())
