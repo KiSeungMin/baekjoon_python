@@ -7,7 +7,7 @@ def main():
     
     ANSWER = getAnswer()
     
-    print(DP)
+    #print(DP)
     print(ANSWER)
 
 
